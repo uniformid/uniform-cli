@@ -1,0 +1,36 @@
+{
+  "name": "uniform-cli",
+  "version": "0.0.1",
+  "description": "standard tooling for uniform development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uniformid/uniform-cli.git"
+  },
+  "keywords": [
+    "tooling",
+    "development"
+  ],
+  "author": "Erwin W Ramadhan <erwinwahyuramadhan@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uniformid/uniform-cli/issues"
+  },
+  "homepage": "https://github.com/uniformid/uniform-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "chalk-pipe": "^2.0.0",
+    "commander": "^2.18.0",
+    "inquirer": "^6.2.0",
+    "minimist": "^1.2.0",
+    "rxjs": "^6.3.2",
+    "semver": "^5.5.1",
+    "slash": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=8.9"
+  }
+}
