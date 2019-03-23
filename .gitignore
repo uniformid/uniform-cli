@@ -1,2 +1,3 @@
 node_modules
-./lib/modules-vuex
+./bin/run.js
+test.js
